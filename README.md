@@ -10,3 +10,13 @@ Jobs can be Grouped together and reported on. The results will be reported in th
 
 Fake data is generated using a random number generator.
 
+## How to Run
+
+```
+cabal build
+
+cabal run
+
+```
+
+The output from the Report will be displayed in the terminal.

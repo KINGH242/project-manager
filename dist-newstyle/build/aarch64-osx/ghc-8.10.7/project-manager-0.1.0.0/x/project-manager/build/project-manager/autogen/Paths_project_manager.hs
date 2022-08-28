@@ -42,12 +42,12 @@ getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: 
 
 
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
-bindir     = "/Users/hareemadderley/.cabal/bin"
-libdir     = "/Users/hareemadderley/.cabal/lib/aarch64-osx-ghc-8.10.7/project-manager-0.1.0.0-inplace-project-manager"
-dynlibdir  = "/Users/hareemadderley/.cabal/lib/aarch64-osx-ghc-8.10.7"
-datadir    = "/Users/hareemadderley/.cabal/share/aarch64-osx-ghc-8.10.7/project-manager-0.1.0.0"
-libexecdir = "/Users/hareemadderley/.cabal/libexec/aarch64-osx-ghc-8.10.7/project-manager-0.1.0.0"
-sysconfdir = "/Users/hareemadderley/.cabal/etc"
+bindir     = "/Users/hadderley/.cabal/bin"
+libdir     = "/Users/hadderley/.cabal/lib/aarch64-osx-ghc-8.10.7/project-manager-0.1.0.0-inplace-project-manager"
+dynlibdir  = "/Users/hadderley/.cabal/lib/aarch64-osx-ghc-8.10.7"
+datadir    = "/Users/hadderley/.cabal/share/aarch64-osx-ghc-8.10.7/project-manager-0.1.0.0"
+libexecdir = "/Users/hadderley/.cabal/libexec/aarch64-osx-ghc-8.10.7/project-manager-0.1.0.0"
+sysconfdir = "/Users/hadderley/.cabal/etc"
 
 getBinDir     = catchIO (getEnv "project_manager_bindir")     (\_ -> return bindir)
 getLibDir     = catchIO (getEnv "project_manager_libdir")     (\_ -> return libdir)
